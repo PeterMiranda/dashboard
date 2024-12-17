@@ -1,8 +1,8 @@
 //GUÍA 12
 
-    //GUÍA 13
-    {/* Hooks */ }
-    import { useState, useRef } from 'react';
+  //GUÍA 13
+  {/* Hooks */ }
+  import { useState, useRef } from 'react';
 
 {/* Componentes MUI */}
 import Paper from '@mui/material/Paper';
@@ -13,9 +13,9 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 //import Select from '@mui/material/Select';
 
-    //GUÍA 13
-    {/* Interfaz SelectChangeEvent */}
-    import Select, { SelectChangeEvent } from '@mui/material/Select';
+  //GUÍA 13
+  {/* Interfaz SelectChangeEvent */}
+  import Select, { SelectChangeEvent } from '@mui/material/Select';
    
 export default function ControlWeather() {
 
