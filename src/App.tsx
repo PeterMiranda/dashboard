@@ -52,7 +52,7 @@ function App() {
             {/* Request */}
             let API_KEY = "OPENWEATHERMAP' API KEY"
             let response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Guayaquil&mode=xml&appid=${API_KEY}`)
-            //let savedTextXML = await response.text();
+            let savedTextXML = await response.text();
 
             {/* Tiempo de expiración */}
             let hours = 0.01
